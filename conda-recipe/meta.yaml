@@ -1,0 +1,35 @@
+package:
+  name: package_cool_name
+  version: {{ GIT_DESCRIBE_TAG }}
+
+source:
+  path: ..
+
+build:
+  script: "pip install . --no-deps --ignore-installed --no-cache-dir -vvv"
+  number: 1
+
+  entry_points:
+    - package_entry = package_cool_name.package_cool_name:main
+
+requirements:
+  build:
+    - python
+    - pip
+
+  run:
+    - python
+
+test:
+  imports:
+    - package_cool_name
+
+  requires:
+    - pytest
+
+  run:
+    - pytest
+
+about:
+  home: https://github.com/lorenzocerrone/python-project-cookie-cutter
+  license: MIT
