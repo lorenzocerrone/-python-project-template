@@ -5,9 +5,15 @@ A minimal python project to use as cheatsheet for new projects:
   * Conda-packaging
 
 ## Setup conda
-
+1. Write a `meta.yaml` following the [meta](conda-recipe/meta.yaml) template.
+2. If GitHub actions are not installed:
+    * Install `conda-build`, by doing `conda install -q conda-build`
+    * Build: `conda build conda-recipe` (add channel here if required)
+    * Install: `conda install --use-local package_cool_name`
+    * Upload: [complete guide](https://enterprise-docs.anaconda.com/en/latest/data-science-workflows/packages/upload.html)
 
 ## Setup actions
+See [workflow](.github/workflows/build-deploy-on-conda.yml) for an example.
 
 ## Versioning
 1. Make sure that `bumpversion` is installed in your conda env, see 
