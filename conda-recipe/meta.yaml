@@ -10,7 +10,7 @@ build:
   number: 1
 
   entry_points:
-    - package_entry = package_cool_name.package_cool_name:main
+    - package_entry = package_cool_name.main:main
 
 requirements:
   build:
