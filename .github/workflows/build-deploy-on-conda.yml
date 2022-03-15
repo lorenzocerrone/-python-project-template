@@ -27,7 +27,7 @@ jobs:
           conda build conda-recipe
     - name: Install dependencies
       run: |
-        conda install package_cool_name
+        conda install --use-local package_cool_name
     - name: Run pytest
       run: |
         conda install pytest
