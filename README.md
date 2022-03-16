@@ -21,3 +21,9 @@ See [workflow](.github/workflows/build-deploy-on-conda.yml) for an example.
 2. Checkout master branch.
 3. Run `bumpversion patch` (or `major` or `minor`) - this will bum the version in `.bumpversion.cfg` and `__version__.py` add create a new tag.
 4. Run `git push && git push --tags` - this will trigger tagged action build.
+
+## TODO
+- Check current standard setup.py, requirements.txt, setup.cfg, MANIFEST.in, Pipfile, pyproject.toml
+- Poetry as a conda alternative
+- Mamba
+- 
