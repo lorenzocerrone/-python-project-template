@@ -3,7 +3,7 @@ A minimal python project to use as cheatsheet for new projects:
   * Versioning
   * Basic GitHub actions
   * Conda-packaging
-
+change
 ## Setup conda
 1. Write a `meta.yaml` following the [meta](conda-recipe/meta.yaml) template.
 2. If GitHub actions are not installed:
