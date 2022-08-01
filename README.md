@@ -2,7 +2,7 @@
 A minimal python project demo to use as template for new projects:
   * Versioning
   * Basic GitHub actions for testing and deployment
-  * pip and conda packaging
+  * conda packaging
 
 This is just a small educational sample for me to try different configurations, but keep in mind that probably something like
 python [cookiecutter](https://github.com/cookiecutter/cookiecutter) is what you probably need. 
@@ -31,8 +31,3 @@ python [cookiecutter](https://github.com/cookiecutter/cookiecutter) is what you 
 2. Checkout master branch.
 3. Run `bumpversion patch` (or `major` or `minor`) - this will bum the version in `.bumpversion.cfg` and `__version__.py` add create a new tag.
 4. Run `git push && git push --tags` - this will trigger tagged action build.
-
-## TODO
-- Check current standard setup.py, requirements.txt, setup.cfg, MANIFEST.in, Pipfile, pyproject.toml
-- Poetry as a conda alternative
-- Mamba
