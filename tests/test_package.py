@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 """
-author: Lorenzo Cerrone
+author: TODO
 """
 from package_cool_name import main
 

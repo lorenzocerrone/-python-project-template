@@ -1,12 +1,12 @@
 # -*- coding: utf-8 -*-
 
 """
-author: Lorenzo Cerrone
+author: TODO
 """
 
 
 def main():
-    print("Hello! I am Python project cookie cutter")
+    print("Hello! I am demo python project")
 
 
 if __name__ == "__main__":
